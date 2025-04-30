@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>koto-bet</title>
+    <link rel="stylesheet" href="styles.css">
+     <link rel="icon" type="image/png"  href="ChatGPT Image 29 avr. 2025, 20_20_49.png" />
+</head>
+<body>
+    <div class="container">
+        <h2 style="text-align: center;">KoTo-BeT</h2>
+        <label> Nombre d'equipes a tirer :</label>
+        <input type="number" id="nombre" min="1" max="25" />
+        <div class="action">
+            <button onclick="tirerEquipes()"> Tirer les equipes </button>
+            <button onclick="resetEquipes()"> Réinitialisation des equipes</button>
+        </div>
+          <div id="resultat" class="result-wrapper"></div>
+          <div id="controle" style="display:none;">
+            <p>Quelqu'un a t-il gagné ?</p>
+            <button onclick="recommencer(true)">Oui</button>
+            <button onclick="recommencer(false)">Non</button>
+          </div>
+
+    </div>
+    <script src="script.js"></script>   
+</body>
+</html>
