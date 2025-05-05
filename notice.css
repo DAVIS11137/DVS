@@ -1,0 +1,123 @@
+body {
+    margin:0 ;
+    font-family: 'Poppins', sans-serif;
+    color: #f0f0f0;
+    
+  }
+
+  h1, h2, h3 {
+    color: rgba(9, 255, 0, 0.473);
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-top: 40px;
+    border-bottom: 2px;
+    padding-bottom: 5px;
+  }
+
+  p, li {
+    font-size: 1.1rem;
+  }
+
+  #center {
+    text-align: center;
+  }
+
+  .container {
+    background: linear-gradient(  135deg , #122341, #2a5298);
+    padding: 60px;
+    padding-bottom: 23px;
+    margin-bottom: -50px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
+  }
+
+  .highlight {
+    color: rgba(9, 255, 0, 0.473);
+    font-weight: bold;
+  }
+
+  .example {
+    background-color: #333;
+   
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 8px;
+  }
+
+  ul {
+    margin-left: 20px;
+  }
+
+  footer {
+    padding: 50px;
+    padding-top: px;
+    background-color: #333;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #aaa;
+    
+  }
+
+  .logo{
+    max-width: 12%;
+    padding: 34px;
+    background-color: white;
+    border-radius: 150px;
+    box-shadow: 0 0 20px rgba(9, 255, 0, 0.473);
+    margin-left: 83%;
+    margin-bottom: -50px;
+    margin-top: -50px;
+  }
+  .logo:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+  .logo img{
+    max-width: 100%;
+    border-radius: 150px;
+  }
+  .logo2{
+    max-width: 12%;
+    padding: 34px;
+    background-color: white;
+    border-radius: 150px;
+    box-shadow: 0 0 20px rgba(9, 255, 0, 0.473);
+    margin-top: -180px;
+    
+  }
+  .logo2:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+  .logo3{
+    max-width: 3rem;
+    margin-right: 33px;
+    margin-left: 19px;
+  }
+  .logo4{
+    max-width: 3rem;
+    margin-left: 43px;
+    margin-right: 19px;
+  }
+  .logo3:hover{
+   
+    border-radius: 50%;
+    background-color: #2a5298;
+   transition: 1.5s;  
+  }
+  .logo4:hover{
+    
+    border-radius: 50%;
+    background-color: #44982a;
+   transition: 1.5s;  
+  }
+ 
